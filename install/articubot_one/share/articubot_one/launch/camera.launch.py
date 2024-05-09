@@ -1,0 +1,1 @@
+/home/easz/articubot_one/launch/camera.launch.py

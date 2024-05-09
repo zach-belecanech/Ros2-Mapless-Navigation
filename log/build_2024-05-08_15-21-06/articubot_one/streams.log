@@ -1,0 +1,96 @@
+[0.005s] Invoking command in '/home/easz/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/easz/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/easz/articubot_one/install/articubot_one
+[1.618s] -- The C compiler identification is GNU 9.4.0
+[2.352s] -- The CXX compiler identification is GNU 9.4.0
+[2.358s] -- Check for working C compiler: /usr/bin/cc
+[2.410s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.411s] -- Detecting C compiler ABI info
+[2.482s] -- Detecting C compiler ABI info - done
+[2.488s] -- Detecting C compile features
+[2.488s] -- Detecting C compile features - done
+[2.489s] -- Check for working CXX compiler: /usr/bin/c++
+[2.526s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.527s] -- Detecting CXX compiler ABI info
+[2.592s] -- Detecting CXX compiler ABI info - done
+[2.598s] -- Detecting CXX compile features
+[2.598s] -- Detecting CXX compile features - done
+[2.599s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.616s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.616s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.693s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.709s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.745s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.753s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.753s] -- Configured cppcheck include dirs: 
+[2.753s] -- Configured cppcheck exclude dirs and/or files: 
+[2.761s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.761s] -- Configured cpplint exclude dirs and/or files: 
+[2.762s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.764s] -- Added test 'lint_cmake' to check CMake code style
+[2.765s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.773s] -- Added test 'uncrustify' to check C / C++ code style
+[2.773s] -- Configured uncrustify additional arguments: 
+[2.774s] -- Added test 'xmllint' to check XML markup files
+[2.775s] -- Configuring done
+[2.776s] -- Generating done
+[2.776s] -- Build files have been written to: /home/easz/articubot_one/build/articubot_one
+[2.778s] Invoked command in '/home/easz/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/easz/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/easz/articubot_one/install/articubot_one
+[2.780s] Invoking command in '/home/easz/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/easz/articubot_one/build/articubot_one -- -j24 -l24
+[2.797s] Invoked command in '/home/easz/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/easz/articubot_one/build/articubot_one -- -j24 -l24
+[2.811s] Invoking command in '/home/easz/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/easz/articubot_one/build/articubot_one
+[2.815s] -- Install configuration: ""
+[2.816s] -- Execute custom install script
+[2.816s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[2.816s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[2.816s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[2.816s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/empty.yaml
+[2.816s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[2.816s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[2.816s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/joystick.yaml
+[2.816s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/main.rviz
+[2.817s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/map.rviz
+[2.817s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[2.817s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[2.817s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[2.817s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[2.817s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[2.817s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/description/camera.xacro
+[2.817s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[2.817s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/description/face.xacro
+[2.817s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[2.817s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/description/lidar.xacro
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/description/your_robot.urdf
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/final_test_env.py
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[2.818s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[2.819s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[2.819s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[2.819s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[2.819s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[2.819s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/launch/simple_model_final_test.py
+[2.819s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/worlds/empty.world
+[2.819s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/worlds/final_test.world
+[2.819s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[2.819s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[2.819s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[2.820s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[2.820s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[2.820s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/environment/path.sh
+[2.820s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/environment/path.dsv
+[2.820s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/local_setup.bash
+[2.820s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/local_setup.sh
+[2.820s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/local_setup.zsh
+[2.820s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/local_setup.dsv
+[2.820s] -- Symlinking: /home/easz/articubot_one/install/articubot_one/share/articubot_one/package.dsv
+[2.825s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[2.825s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[2.825s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[2.825s] -- Up-to-date symlink: /home/easz/articubot_one/install/articubot_one/share/articubot_one/package.xml
+[2.826s] Invoked command in '/home/easz/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/easz/articubot_one/build/articubot_one
